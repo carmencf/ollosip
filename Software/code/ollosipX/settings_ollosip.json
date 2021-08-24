@@ -1,0 +1,581 @@
+[
+	{
+		"type": "title",
+		"title": "Sistema"
+	},
+	{
+		"type": "string",
+		"title": "IP",
+		"desc": "IP do terminal",
+		"section": "sistema",
+		"key": "ip"
+	},
+	{
+		"type": "string",
+		"title": "Porta de enlace",
+		"desc": "Porta de enlace do router",
+		"section": "sistema",
+		"key": "pe"
+	},
+	{
+		"type": "title",
+		"title": "Terminal"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome do terminal para a identificacion no sistema",
+		"section": "terminal",
+		"key": "nombre"
+	},
+	{
+		"type": "string",
+		"title": "Ip PBX",
+		"desc": "Ip de enlace coa centralita PBX",
+		"section": "terminal",
+		"key": "ipbx"
+	},
+	{
+		"type": "numeric",
+		"title": "Extension",
+		"desc": "Nome da extension para conectarse a PBX",
+		"section": "terminal",
+		"key": "extension"
+	},
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal do usuario da extension PBX",
+		"section": "terminal",
+		"key": "clave"
+	},
+	{
+		"type": "title",
+		"title": "Video Porteiro Ip"
+	},
+	{
+		"type": "string",
+		"title": "Ip Video Porteiro",
+		"desc": "Ip asignado o video porteiro",
+		"section": "videoportero",
+		"key": "ipvideoportero"
+	},
+	{
+		"type": "numeric",
+		"title": "Puerto",
+		"desc": "Porto para o canle de video",
+		"section": "videoportero",
+		"key": "puerto"
+	},
+	{
+		"type": "numeric",
+		"title": "Extension",
+		"desc": "Nome da extension asignado para conectarse a PBX",
+		"section": "videoportero",
+		"key": "extension"
+	},
+	
+	
+	{
+		"type": "title",
+		"title": "Camaras CCTV"
+	},
+	{
+		"type": "title",
+		"title": "Camara 1"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome para a camara",
+		"section": "camaras",
+		"key": "nomecam1"
+	},
+	{
+		"type": "string",
+		"title": "Ip CAM1",
+		"desc": "Ip camara 1",
+		"section": "camaras",
+		"key": "ipcam1"
+	},
+	{
+		"type": "numeric",
+		"title": "Porto",
+		"desc": "Porto para a camara 1",
+		"section": "camaras",
+		"key": "porto1"
+	},
+	{
+		"type": "string",
+		"title": "Usuario",
+		"desc": "Nome de usuario para o acceso",
+		"section": "camaras",
+		"key": "usercam1"
+	},
+	
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal camara 1",
+		"section": "camaras",
+		"key": "clave1"
+	},
+	
+	
+	
+	{
+		"type": "bool",
+		"title": "Activar",
+		"desc": "Activa a camara 1",
+		"section": "camaras",
+		"key": "oncam1",
+		"values": ["0", "1"]
+	},
+	
+	
+	
+	
+	
+	{
+		"type": "title",
+		"title": "Camara 2"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome para a camara",
+		"section": "camaras",
+		"key": "nomecam2"
+	},
+	{
+		"type": "string",
+		"title": "Ip CAM2",
+		"desc": "Ip camara 2",
+		"section": "camaras",
+		"key": "ipcam2"
+	},
+	{
+		"type": "numeric",
+		"title": "Porto",
+		"desc": "Porto para a camara 2",
+		"section": "camaras",
+		"key": "porto2"
+	},
+	{
+		"type": "string",
+		"title": "Usuario",
+		"desc": "Nome de usuario para o acceso",
+		"section": "camaras",
+		"key": "usercam2"
+	},
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal camara 2",
+		"section": "camaras",
+		"key": "clave2"
+	},
+	{
+		"type": "bool",
+		"title": "Activar",
+		"desc": "Activa a camara 2",
+		"section": "camaras",
+		"key": "oncam2",
+		"values": ["0", "1"]
+	},
+	
+	
+	{
+		"type": "title",
+		"title": "Camara 3"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome para a camara",
+		"section": "camaras",
+		"key": "nomecam3"
+	},
+	{
+		"type": "string",
+		"title": "Ip CAM3",
+		"desc": "Ip camara 3",
+		"section": "camaras",
+		"key": "ipcam3"
+	},
+	{
+		"type": "numeric",
+		"title": "Porto",
+		"desc": "Porto para a camara 3",
+		"section": "camaras",
+		"key": "porto3"
+	},
+	{
+		"type": "string",
+		"title": "Usuario",
+		"desc": "Nome de usuario para o acceso",
+		"section": "camaras",
+		"key": "usercam3"
+	},
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal camara 3",
+		"section": "camaras",
+		"key": "clave3"
+	},
+	{
+		"type": "bool",
+		"title": "Activar",
+		"desc": "Activa a camara 3",
+		"section": "camaras",
+		"key": "oncam3",
+		"values": ["0", "1"]
+	},
+	
+	
+	{
+		"type": "title",
+		"title": "Camara 4"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome para a camara",
+		"section": "camaras",
+		"key": "nomecam4"
+	},
+	{
+		"type": "string",
+		"title": "Ip CAM4",
+		"desc": "Ip camara 4",
+		"section": "camaras",
+		"key": "ipcam4"
+	},
+	{
+		"type": "numeric",
+		"title": "Porto",
+		"desc": "Porto para a camara 4",
+		"section": "camaras",
+		"key": "porto4"
+	},
+	{
+		"type": "string",
+		"title": "Usuario",
+		"desc": "Nome de usuario para o acceso",
+		"section": "camaras",
+		"key": "usercam4"
+	},
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal camara 4",
+		"section": "camaras",
+		"key": "clave4"
+	},
+	{
+		"type": "bool",
+		"title": "Activar",
+		"desc": "Activa a camara 4",
+		"section": "camaras",
+		"key": "oncam4",
+		"values": ["0", "1"]
+	},
+	
+	
+	{
+		"type": "title",
+		"title": "Camara 5"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome para a camara",
+		"section": "camaras",
+		"key": "nomecam5"
+	},
+	{
+		"type": "string",
+		"title": "Ip CAM5",
+		"desc": "Ip camara 5",
+		"section": "camaras",
+		"key": "ipcam5"
+	},
+	{
+		"type": "numeric",
+		"title": "Porto",
+		"desc": "Porto para a camara 5",
+		"section": "camaras",
+		"key": "porto5"
+	},
+	{
+		"type": "string",
+		"title": "Usuario",
+		"desc": "Nome de usuario para o acceso",
+		"section": "camaras",
+		"key": "usercam5"
+	},
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal camara 5",
+		"section": "camaras",
+		"key": "clave5"
+	},
+	{
+		"type": "bool",
+		"title": "Activar",
+		"desc": "Activa a camara 5",
+		"section": "camaras",
+		"key": "oncam5",
+		"values": ["0", "1"]
+	},
+	
+	
+	{
+		"type": "title",
+		"title": "Camara 6"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome para a camara",
+		"section": "camaras",
+		"key": "nomecam6"
+	},
+	{
+		"type": "string",
+		"title": "Ip CAM6",
+		"desc": "Ip camara 6",
+		"section": "camaras",
+		"key": "ipcam6"
+	},
+	{
+		"type": "numeric",
+		"title": "Porto",
+		"desc": "Porto para a camara 6",
+		"section": "camaras",
+		"key": "porto6"
+	},
+	{
+		"type": "string",
+		"title": "Usuario",
+		"desc": "Nome de usuario para o acceso",
+		"section": "camaras",
+		"key": "usercam6"
+	},
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal camara 6",
+		"section": "camaras",
+		"key": "clave6"
+	},
+	{
+		"type": "bool",
+		"title": "Activar",
+		"desc": "Activa a camara 6",
+		"section": "camaras",
+		"key": "oncam6",
+		"values": ["0", "1"]
+	},
+	
+	
+	{
+		"type": "title",
+		"title": "Camara 7"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome para a camara",
+		"section": "camaras",
+		"key": "nomecam7"
+	},
+	{
+		"type": "string",
+		"title": "Ip CAM7",
+		"desc": "Ip camara 7",
+		"section": "camaras",
+		"key": "ipcam7"
+	},
+	{
+		"type": "numeric",
+		"title": "Porto",
+		"desc": "Porto para a camara 7",
+		"section": "camaras",
+		"key": "porto7"
+	},
+	{
+		"type": "string",
+		"title": "Usuario",
+		"desc": "Nome de usuario para o acceso",
+		"section": "camaras",
+		"key": "usercam7"
+	},
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal camara 7",
+		"section": "camaras",
+		"key": "clave7"
+	},
+	{
+		"type": "bool",
+		"title": "Activar",
+		"desc": "Activa a camara 7",
+		"section": "camaras",
+		"key": "oncam7",
+		"values": ["0", "1"]
+	},
+	
+	
+	{
+		"type": "title",
+		"title": "Camara 8"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome para a camara",
+		"section": "camaras",
+		"key": "nomecam8"
+	},
+	{
+		"type": "string",
+		"title": "Ip CAM8",
+		"desc": "Ip camara 8",
+		"section": "camaras",
+		"key": "ipcam8"
+	},
+	{
+		"type": "numeric",
+		"title": "Porto",
+		"desc": "Porto para a camara 8",
+		"section": "camaras",
+		"key": "porto8"
+	},
+	{
+		"type": "string",
+		"title": "Usuario",
+		"desc": "Nome de usuario para o acceso",
+		"section": "camaras",
+		"key": "usercam8"
+	},
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal camara 8",
+		"section": "camaras",
+		"key": "clave8"
+	},
+	{
+		"type": "bool",
+		"title": "Activar",
+		"desc": "Activa a camara 8",
+		"section": "camaras",
+		"key": "oncam8",
+		"values": ["0", "1"]
+	},
+	
+	
+	{
+		"type": "title",
+		"title": "Camara 9"
+	},
+	{
+		"type": "string",
+		"title": "Nome",
+		"desc": "Nome para a camara",
+		"section": "camaras",
+		"key": "nomecam9"
+	},
+	{
+		"type": "string",
+		"title": "Ip CAM9",
+		"desc": "Ip camara 9",
+		"section": "camaras",
+		"key": "ipcam9"
+	},
+	{
+		"type": "numeric",
+		"title": "Porto",
+		"desc": "Porto para a camara 9",
+		"section": "camaras",
+		"key": "porto9"
+	},
+	{
+		"type": "string",
+		"title": "Usuario",
+		"desc": "Nome de usuario para o acceso",
+		"section": "camaras",
+		"key": "usercam9"
+	},
+	{
+		"type": "string",
+		"title": "Contrasinal",
+		"desc": "Contrasinal camara 9",
+		"section": "camaras",
+		"key": "clave9"
+	},
+	{
+		"type": "bool",
+		"title": "Activar",
+		"desc": "Activa a camara 9",
+		"section": "camaras",
+		"key": "oncam9",
+		"values": ["0", "1"]
+	},
+	
+	
+	
+	
+	
+	{
+		"type": "title",
+		"title": "Windows"
+	},
+	{
+		"type": "bool",
+		"title": "Fullscreen",
+		"desc": "Set the window in windowed or fullscreen",
+		"section": "graphics",
+		"key": "fullscreen",
+		"values": ["0", "auto"]
+	},
+	
+	{
+		"type": "options",
+		"title": "Rotation",
+		"desc": "Rotation of the window",
+		"section": "graphics",
+		"key": "rotation",
+		"options": ["0", "90", "180", "270"]
+	},
+
+	
+
+	{
+		"type": "title",
+		"title": "Teclado"
+	},
+	{
+		"type": "options",
+		"title": "Modo del teclado",
+		"desc": "Activacion del uso del teclado virtual",
+		"section": "kivy",
+		"key": "keyboard_mode",
+		"options": ["system", "dock", "multi", "systemanddock", "systemandmulti"]
+	},
+	{
+		"type": "options",
+		"title": "Tipo de teclado",
+		"desc": "Seleccionar el tipo de teclado",
+		"section": "kivy",
+		"key": "keyboard_layout",
+		"options": ["qwerty", "azerty", "qwertz", "de_CH", "fr_CH", "en_US"]
+	}
+
+	
+	
+]

@@ -2,7 +2,11 @@
 Raspberry Pi based IP Public Address, CCTV and access control system
 
 Sistema IP de megafonía, CCTV y control de accesos  basado en Raspberry Pi
+----------------------------------------------------------------------------
 
+
+
+----------------------------------------------------------------------------
 
 
 CC BY-SA (Licenciado bajo la Licencia Creative Commons Reconocimiento Compartir igual 4.0)
